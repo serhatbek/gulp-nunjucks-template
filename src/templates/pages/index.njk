@@ -1,0 +1,19 @@
+{% extends "includes/layout/layout.njk" %}
+{% block content %}
+    <h1>This is home page</h1>
+    <h2>A new text</h2>
+    <p>Go to
+        <a href="../About/about.html">About us</a>
+        page</p>
+    <div class="container">
+        <button class="toggle-btn">Toggle 1</button>
+        <div class="box is-hidden">Box 1</div>
+    </div>
+    <div class="js-toggle-box">
+        <button class="toggle-btn">
+            <i class="icon-crown"></i>
+            <i class="icon-instagram"></i>
+            Toggle 2 Button</button>
+        <div class="box is-hidden">Box 2</div>
+    </div>
+{% endblock %}

@@ -1,0 +1,24 @@
+@font-face {
+  font-family: "gulp-nunjucks-template";
+  src: url('../fonts/icons/gulp-nunjucks-template.eot?t=1760788935315'); /* IE9*/
+  src: url('../fonts/icons/gulp-nunjucks-template.eot?t=1760788935315#iefix') format('embedded-opentype') /* IE6-IE8 */,
+  url('../fonts/icons/gulp-nunjucks-template.woff2?t=1760788935315') format('woff2'),
+  url('../fonts/icons/gulp-nunjucks-template.woff?t=1760788935315') format('woff'),
+  url('../fonts/icons/gulp-nunjucks-template.ttf?t=1760788935315') format('truetype'),
+  url('../fonts/icons/gulp-nunjucks-template.svg?t=1760788935315') format('svg');
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'gulp-nunjucks-template' !important;font-size: undefined;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.icon-crown::before { content: "\ea01"; }
+.icon-instagram::before { content: "\ea02"; }
+
+
+$icon-crown: '\ea01';
+$icon-instagram: '\ea02';

@@ -1,0 +1,16 @@
+/*
+Optional template for using unique ID
+💡 Note on order: WOFF2 comes before WOFF, TTF, and others to prioritize modern, smaller formats in supporting browsers.
+
+@font-face {
+  font-family: #{v.$font-name};
+  src: url('#{v.$font-path}#{v.$font-name}.eot?v=#{v.$uniqueID}');
+  src: url('#{v.$font-path}#{v.$font-name}.eot?v=#{v.$uniqueID}#iefix') format('embedded-opentype'),
+       url('#{v.$font-path}#{v.$font-name}.woff2?v=#{v.$uniqueID}') format('woff2'),
+       url('#{v.$font-path}#{v.$font-name}.woff?v=#{v.$uniqueID}') format('woff'),
+       url('#{v.$font-path}#{v.$font-name}.ttf?v=#{v.$uniqueID}') format('truetype'),
+       url('#{v.$font-path}#{v.$font-name}.svg?v=#{v.$uniqueID}##{v.$font-name}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+*/

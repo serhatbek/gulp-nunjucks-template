@@ -1,0 +1,35 @@
+# macOS system files
+.DS_Store
+
+# Node.js dependencies
+node_modules
+
+# Compiled output
+dist/
+
+# IDE files (example: Visual Studio Code)
+.vscode
+
+# Gulp cache files
+.gulp-cache
+
+# Log files
+logs
+
+# Environment variables
+.env
+.env.*
+
+# Ignore npm debug log
+npm-debug.log*
+
+# Ignore yarn debug log
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore npm and yarn lock files
+package-lock.json
+yarn.lock
+
+# Ignore excalidraw file
+.excalidraw

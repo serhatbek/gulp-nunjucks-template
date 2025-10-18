@@ -1,0 +1,23 @@
+{
+  "extends": "stylelint-config-standard-scss",
+  "plugins": ["stylelint-scss"],
+  "rules": {
+    "string-quotes": "double",
+    "max-nesting-depth": 3,
+    "selector-no-qualifying-type": null,
+    "selector-class-pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*(?:__(?:[a-z0-9]+(?:-[a-z0-9]+)*))?(?:--(?:[a-z0-9]+(?:-[a-z0-9]+)*))?$",
+    "selector-max-id": 0,
+    "selector-max-compound-selectors": 3,
+    "selector-max-type": 2,
+    "color-hex-case": "lower",
+    "block-no-empty": true,
+    "declaration-no-important": true,
+    "selector-pseudo-element-no-unknown": [
+      true,
+      { "ignorePseudoElements": ["ng-deep"] }
+    ],
+    "scss/dollar-variable-pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+    "scss/declaration-nested-properties": "never",
+    "scss/at-extend-no-missing-placeholder": true
+  }
+}

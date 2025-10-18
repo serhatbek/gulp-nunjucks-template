@@ -1,0 +1,8 @@
+@use "sass:string";
+
+// Generate a unique ID to bust browser cache
+$uniqueID: string.unique-id();
+
+// @font-face variables
+$font-name: "your-font-name";
+$font-path: "../fonts/";

@@ -1,0 +1,13 @@
+// import @font-face variables from variables partial
+@use "./variables" as v;
+
+/* ------------------------------------- // Font Icon ------------------------------------- */
+[class^="icon-"],
+[class*=" icon-"] {
+  font-size: 16px;
+  text-transform: none;
+
+  // line-height: 1;
+}
+
+/* --------------------------------------- // Other Fonts --------------------------------------- */

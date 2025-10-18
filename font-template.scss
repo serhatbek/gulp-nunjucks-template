@@ -1,0 +1,18 @@
+@font-face {
+  font-family: "<%= fontName %>";
+  src: url('<%= css.fontPath %><%= fontName %>.eot?t=<%= timestamp %>'); /* IE9 */
+  src:
+    url('<%= css.fontPath %><%= fontName %>.eot?t=<%= timestamp %>#iefix') format('embedded-opentype'),
+    url('<%= css.fontPath %><%= fontName %>.woff2?t=<%= timestamp %>') format('woff2'),
+    url('<%= css.fontPath %><%= fontName %>.woff?t=<%= timestamp %>') format('woff'),
+    url('<%= css.fontPath %><%= fontName %>.ttf?t=<%= timestamp %>') format('truetype'),
+    url('<%= css.fontPath %><%= fontName %>.svg?t=<%= timestamp %>') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+<% glyphs.forEach(function(glyph) { %>
+.<%= classNamePrefix %><%= glyph.name %>::before {
+  content: "\\<%= glyph.unicode[0].charCodeAt(0).toString(16) %>";
+}
+<% }); %>
