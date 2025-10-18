@@ -1,3 +1,5 @@
+![Gulp + Nunjucks Automation](assets/20251018_184329_gulp-banner.png)
+
 # ⚙️ Gulp + Nunjucks Automation
 
 A powerful, modern frontend build workflow using **Gulp 5**, **Nunjucks**, and **SCSS**. Designed for long-term reliability and simple maintenance.
