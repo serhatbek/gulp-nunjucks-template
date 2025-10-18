@@ -61,5 +61,5 @@ Tested on **Node.js 22.20.0**. To ensure long-term stability, use this version (
 
 ## License
 
-This project is open source and available under the [MIT License]().
+This project is open source and available under the [MIT License](https://github.com/serhatbek/gulp-nunjucks-template/blob/main/LICENSE.md).
 You are free to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of this project, as long as the original copyright notice is included.

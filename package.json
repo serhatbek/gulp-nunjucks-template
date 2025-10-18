@@ -11,9 +11,9 @@
     "docs": "docsify serve ./documentation"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "author": "Serhat Bek (https://github.com/serhatbek)",
+  "license": "MIT",
+  "description": "A powerful, modern frontend build workflow using **Gulp 5**, **Nunjucks**, and **SCSS**. Designed for long-term reliability and simple maintenance.",
   "devDependencies": {
     "@babel/core": "^7.27.1",
     "@babel/preset-env": "^7.27.2",
