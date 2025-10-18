@@ -8,7 +8,7 @@
     "scssLint": "stylelint \"src/scss/**/*.scss\" \"!src/scss/vendors/**/*.scss\" --fix --allow-empty-input",
     "jsLint": "eslint \"src/js/**/*.js\"",
     "icons": "svgtofont --sources ./src/icons --output ./dist/assets/fonts/icons --config ./svgtofont.config.js",
-    "docs": "docsify serve ./documentation"
+    "docs": "docsify serve ./docs"
   },
   "keywords": [],
   "author": "Serhat Bek (https://github.com/serhatbek)",
