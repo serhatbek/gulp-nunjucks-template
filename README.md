@@ -22,45 +22,9 @@ Tested on **Node.js 22.20.0**. To ensure long-term stability, use this version (
 
 ## 📁 Folder Structure
 
-┣ 📂dist
-┃ ┣ 📂About
-┃ ┣ 📂assets
-┃ ┃ ┣ 📂css
-┃ ┃ ┣ 📂fonts
-┃ ┃ ┃ ┗ 📂icons
-┃ ┃ ┣ 📂images
-┃ ┃ ┗ 📂js
-┃ ┗ 📜index.html
-┃
-┣ 📂path
-┣ 📂src
-┃ ┣ 📂data
-┃ ┣ 📂icons
-┃ ┣ 📂js
-┃ ┣ 📂scss
-┃ ┃ ┣ 📂base
-┃ ┃ ┣ 📂components
-┃ ┃ ┣ 📂pages
-┃ ┃ ┣ 📂vendors
-┃ ┃ ┗ 📜main.scss
-┃ ┣ 📂tasks
-┃ ┗ 📂templates
-┃ ┣ 📂includes
-┃ ┃ ┣ 📂components
-┃ ┃ ┗ 📂layout
-┃ ┗ 📂pages
-┃ ┗ 📜index.njk
-┣ 📜.babelrc
-┣ 📜.gitignore
-┣ 📜.nvmrc
-┣ 📜.stylelintrc.json
-┣ 📜config.js
-┣ 📜eslint.config.mjs
-┣ 📜font-template.scss
-┣ 📜gulpfile.js
-┣ 📜package.json
-┣ 📜README.md
-┗ 📜svgtofont.config.js
+```text
+
+```
 
 ---
 
